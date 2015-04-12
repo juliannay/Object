@@ -119,7 +119,7 @@
                                                         <mutation elseif="1" else="1"></mutation>
                                                         <value name="IF0">
                                                           <block type="logic_compare" id="33" inline="true">
-                                                            <field name="OP">GT</field>
+                                                            <field name="OP">LT</field>
                                                             <value name="A">
                                                               <block type="sensor_object" id="91">
                                                                 <field name="OBJECT">LEFTFRONT</field>
@@ -127,7 +127,7 @@
                                                             </value>
                                                             <value name="B">
                                                               <block type="math_number" id="35">
-                                                                <field name="NUM">90</field>
+                                                                <field name="NUM">80</field>
                                                               </block>
                                                             </value>
                                                           </block>
@@ -147,7 +147,7 @@
                                                         </statement>
                                                         <value name="IF1">
                                                           <block type="logic_compare" id="39" inline="true">
-                                                            <field name="OP">GT</field>
+                                                            <field name="OP">LT</field>
                                                             <value name="A">
                                                               <block type="sensor_object" id="92">
                                                                 <field name="OBJECT">RIGHTFRONT</field>
@@ -155,7 +155,7 @@
                                                             </value>
                                                             <value name="B">
                                                               <block type="math_number" id="87">
-                                                                <field name="NUM">90</field>
+                                                                <field name="NUM">80</field>
                                                               </block>
                                                             </value>
                                                           </block>
