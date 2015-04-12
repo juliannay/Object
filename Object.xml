@@ -10,7 +10,7 @@
       <block type="oled_cleardisplay" id="3"></block>
     </statement>
   </block>
-  <block type="controls_whileUntil" id="4" inline="false" x="138" y="-271">
+  <block type="controls_whileUntil" id="4" inline="false" x="98" y="44">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
       <block type="sensor_button" id="5">
