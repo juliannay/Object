@@ -1,5 +1,5 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="1" inline="false" x="113" y="-596">
+  <block type="controls_whileUntil" id="1" inline="false" x="150" y="-570">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
       <block type="sensor_button" id="2">
@@ -34,8 +34,8 @@
                 <next>
                   <block type="oled_drawnumber" id="10" inline="true">
                     <value name="NUMBER">
-                      <block type="sensor_light" id="83">
-                        <field name="LIGHT">LEFT</field>
+                      <block type="sensor_object" id="89">
+                        <field name="OBJECT">LEFTFRONT</field>
                       </block>
                     </value>
                     <next>
@@ -53,8 +53,8 @@
                         <next>
                           <block type="oled_drawnumber" id="15" inline="true">
                             <value name="NUMBER">
-                              <block type="sensor_light" id="84">
-                                <field name="LIGHT">RIGHT</field>
+                              <block type="sensor_object" id="88">
+                                <field name="OBJECT">RIGHTFRONT</field>
                               </block>
                             </value>
                             <next>
@@ -121,8 +121,8 @@
                                                           <block type="logic_compare" id="33" inline="true">
                                                             <field name="OP">GT</field>
                                                             <value name="A">
-                                                              <block type="sensor_light" id="55">
-                                                                <field name="LIGHT">LEFT</field>
+                                                              <block type="sensor_object" id="91">
+                                                                <field name="OBJECT">LEFTFRONT</field>
                                                               </block>
                                                             </value>
                                                             <value name="B">
@@ -149,8 +149,8 @@
                                                           <block type="logic_compare" id="39" inline="true">
                                                             <field name="OP">GT</field>
                                                             <value name="A">
-                                                              <block type="sensor_light" id="76">
-                                                                <field name="LIGHT">RIGHT</field>
+                                                              <block type="sensor_object" id="92">
+                                                                <field name="OBJECT">RIGHTFRONT</field>
                                                               </block>
                                                             </value>
                                                             <value name="B">
@@ -214,5 +214,8 @@
         </next>
       </block>
     </next>
+  </block>
+  <block type="sensor_object" id="90" x="228" y="-175">
+    <field name="OBJECT">RIGHTSIDE</field>
   </block>
 </xml>
