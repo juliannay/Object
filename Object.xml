@@ -1,12 +1,12 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="controls_whileUntil" id="370" inline="false" x="211" y="-556">
+  <block type="controls_whileUntil" id="370" inline="false" x="113" y="-596">
     <field name="MODE">UNTIL</field>
     <value name="NUMBER">
       <block type="sensor_button" id="371">
         <field name="OBJECT">UP</field>
       </block>
     </value>
-    <next>
+    <statement name="DO">
       <block type="controls_whileUntil" id="15" inline="false">
         <field name="MODE">UNTIL</field>
         <value name="NUMBER">
@@ -210,6 +210,6 @@
           <block type="movement_stop" id="199"></block>
         </next>
       </block>
-    </next>
+    </statement>
   </block>
 </xml>
