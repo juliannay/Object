@@ -103,6 +103,20 @@
                                                     <field name="OBJECT">REAR</field>
                                                   </block>
                                                 </value>
+                                                <next>
+                                                  <block type="movement_setmotors" id="166" inline="true">
+                                                    <value name="BOTHMOVLEFT">
+                                                      <block type="sensor_object" id="189">
+                                                        <field name="OBJECT">RIGHTFRONT</field>
+                                                      </block>
+                                                    </value>
+                                                    <value name="BOTHMOVRIGHT">
+                                                      <block type="sensor_object" id="182">
+                                                        <field name="OBJECT">LEFTFRONT</field>
+                                                      </block>
+                                                    </value>
+                                                  </block>
+                                                </next>
                                               </block>
                                             </next>
                                           </block>
