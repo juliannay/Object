@@ -34,7 +34,7 @@
             <next>
               <block type="oled_drawnumber" id="10" inline="true">
                 <value name="NUMBER">
-                  <block type="sensor_light" id="119">
+                  <block type="sensor_light" id="11">
                     <field name="LIGHT">LEFT</field>
                   </block>
                 </value>
@@ -53,7 +53,7 @@
                     <next>
                       <block type="oled_drawnumber" id="15" inline="true">
                         <value name="NUMBER">
-                          <block type="sensor_light" id="120">
+                          <block type="sensor_light" id="16">
                             <field name="LIGHT">RIGHT</field>
                           </block>
                         </value>
@@ -121,7 +121,7 @@
                                                       <block type="logic_compare" id="33" inline="true">
                                                         <field name="OP">GT</field>
                                                         <value name="A">
-                                                          <block type="sensor_light" id="99">
+                                                          <block type="sensor_light" id="34">
                                                             <field name="LIGHT">LEFT</field>
                                                           </block>
                                                         </value>
@@ -141,7 +141,7 @@
                                                           </block>
                                                         </value>
                                                         <next>
-                                                          <block type="movement_left" id="44"></block>
+                                                          <block type="movement_left" id="38"></block>
                                                         </next>
                                                       </block>
                                                     </statement>
@@ -149,12 +149,12 @@
                                                       <block type="logic_compare" id="39" inline="true">
                                                         <field name="OP">GT</field>
                                                         <value name="A">
-                                                          <block type="sensor_light" id="100">
+                                                          <block type="sensor_light" id="40">
                                                             <field name="LIGHT">RIGHT</field>
                                                           </block>
                                                         </value>
                                                         <value name="B">
-                                                          <block type="math_number" id="87">
+                                                          <block type="math_number" id="41">
                                                             <field name="NUM">50</field>
                                                           </block>
                                                         </value>
@@ -169,7 +169,7 @@
                                                           </block>
                                                         </value>
                                                         <next>
-                                                          <block type="movement_right" id="38"></block>
+                                                          <block type="movement_right" id="44"></block>
                                                         </next>
                                                       </block>
                                                     </statement>
