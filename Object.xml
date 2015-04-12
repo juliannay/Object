@@ -34,8 +34,8 @@
                 <next>
                   <block type="oled_drawnumber" id="10" inline="true">
                     <value name="NUMBER">
-                      <block type="sensor_object" id="89">
-                        <field name="OBJECT">LEFTFRONT</field>
+                      <block type="sensor_light" id="119">
+                        <field name="LIGHT">LEFT</field>
                       </block>
                     </value>
                     <next>
@@ -53,8 +53,8 @@
                         <next>
                           <block type="oled_drawnumber" id="15" inline="true">
                             <value name="NUMBER">
-                              <block type="sensor_object" id="88">
-                                <field name="OBJECT">RIGHTFRONT</field>
+                              <block type="sensor_light" id="120">
+                                <field name="LIGHT">RIGHT</field>
                               </block>
                             </value>
                             <next>
@@ -121,8 +121,8 @@
                                                           <block type="logic_compare" id="33" inline="true">
                                                             <field name="OP">LT</field>
                                                             <value name="A">
-                                                              <block type="sensor_object" id="91">
-                                                                <field name="OBJECT">LEFTFRONT</field>
+                                                              <block type="sensor_light" id="99">
+                                                                <field name="LIGHT">LEFT</field>
                                                               </block>
                                                             </value>
                                                             <value name="B">
@@ -149,8 +149,8 @@
                                                           <block type="logic_compare" id="39" inline="true">
                                                             <field name="OP">LT</field>
                                                             <value name="A">
-                                                              <block type="sensor_object" id="92">
-                                                                <field name="OBJECT">RIGHTFRONT</field>
+                                                              <block type="sensor_light" id="100">
+                                                                <field name="LIGHT">RIGHT</field>
                                                               </block>
                                                             </value>
                                                             <value name="B">
